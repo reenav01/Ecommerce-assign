@@ -54,7 +54,6 @@ const Order = ({order,grandTotal}) => {
         const stateVerify = validate(state,"state");
         const zipVerify = validateZip(zip,"zip");
         if (nameVerify && lnameVerify && cityVerify && stateVerify && zipVerify) {
-        cartContext.setCart([]);
         setFlag(true);
         }
     }

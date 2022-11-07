@@ -7,7 +7,7 @@ const Cart = () => {
     const cartContext = useContext(CartContext);
     const [flag, setFlag] = useState(false);
     const [order,setOrder] = useState([]);
-    const [total,setTotal] = useState(0);
+
     let grandTotal = 0;
     const grandTotalCalc = () => {
         cartContext.cart.map((item) => {    
@@ -28,7 +28,7 @@ const Cart = () => {
     }
   return (
     <div className="container ">
-    {flag ? <Order order={order} grandTotal={total}/> :
+    {flag ? <Order order={order} grandTotal={grandTotal}/> :
     <div className="cart order d-flex align-items-center justify-content-center flex-md-column" >
    
         <h1>Cart</h1>

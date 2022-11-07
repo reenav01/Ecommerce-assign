@@ -1,0 +1,38 @@
+.order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: #92DE86;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 5% 5% 5% 5%;
+    margin: 1% 5% 0% 5%;
+    min-height: 85vh;
+  }
+.form-label{
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: "open sans";
+    color: #000;
+  
+}  
+.table{
+    background-color: #FFE3B3;
+
+}
+.table td{
+    font-size: 1vw;
+    font-family: "open sans";
+    color: #000;
+    text-align: center;
+}
+.table th{
+    font-size: 1.5vw;
+    font-family: "open sans";
+    color: #000;
+    text-align: center;
+}

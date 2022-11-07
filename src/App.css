@@ -1,0 +1,12 @@
+
+.App {
+  text-align: center;
+}
+
+.input-error{
+  display: none;
+  color: #D63301;
+  font-size: 1vw;
+  font-weight: 600;
+  font-family: "open sans";
+}

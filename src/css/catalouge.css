@@ -1,0 +1,44 @@
+.catalogue{
+    background-color: #92DE86;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.caraousel-container{
+    background-color: #FFE3B3;
+    padding: 5% 5% 5% 5%;
+    margin: 1% 5% 0% 5%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.carousel-category, .carousel-product{
+    position: relative;
+    text-align: center;
+}
+.category-image, .product-image{
+    object-fit: cover;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+  }
+.link:hover{
+    text-decoration: none;
+    color: inherit;
+} 
+.card-img-overlay:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.product-overlay{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: large;
+    font-weight: 700;
+}
